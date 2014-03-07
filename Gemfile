@@ -35,7 +35,7 @@ end
 #Custom gem
 gem 'will_paginate'
 
-gem 'bootstrap-sass'
+#gem 'bootstrap-sass'
 
 #gem 'capistrano'
 
