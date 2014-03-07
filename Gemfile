@@ -46,6 +46,7 @@ gem 'will_paginate'
 # gem 'unicorn'
 
 # Use Capistrano for deployment
+#toto
 gem 'capistrano', group: :development
 gem 'capistrano-bundler'
 gem 'capistrano-rails'
