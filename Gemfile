@@ -47,6 +47,8 @@ gem 'will_paginate'
 
 # Use Capistrano for deployment
 gem 'capistrano', group: :development
+gem 'capistrano-bundler'
+gem 'capistrano-rails'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
