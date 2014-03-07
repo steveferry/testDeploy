@@ -1,0 +1,9 @@
+<%= form_for @post do |f|%>
+
+	Title: <%= f.text_field :title%><br />
+	Content: <%= f.text_area :content%><br />
+	Draft: <%= f.check_box :draft%><br />
+	
+	<%= f.submit %>
+
+<% end %>

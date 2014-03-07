@@ -1,0 +1,7 @@
+<%= form_for([@post, @comment]) do |f|%>
+
+	<p>Author: <%= f.text_field :author%></p>
+	<p>Message: <%= f.text_area :message%></p>
+	<p><%= f.submit 'Add comment'%></p>
+
+<%end%>
