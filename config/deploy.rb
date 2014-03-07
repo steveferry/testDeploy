@@ -10,8 +10,9 @@ set :repo_url, 'https://github.com/steveferry/testDeploy'
 # Default deploy_to directory is /var/www/my_app
  set :deploy_to, '/home/devweb/myCV'
 
-set :default_environment['http_proxy'] = 'proxy.he-arc.ch:8080'
-set :default_environment['https_proxy'] = 'proxy.he-arc.ch:8080'
+set :default_environment,[]
+default_environment['http_proxy'] = 'proxy.he-arc.ch:8080'
+default_environment['https_proxy'] = 'proxy.he-arc.ch:8080'
 
 # Default value for :scm is :git
 # set :scm, :git
