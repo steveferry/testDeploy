@@ -1,6 +1,6 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
-require "bundler/capistrano"
+
 set :application, 'myCV'
 set :repo_url, 'https://github.com/steveferry/testDeploy'
 
