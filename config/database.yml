@@ -32,7 +32,7 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: webblog_production
+  database: mycv_production
   pool: 5
   username: devweb
   password: "devweb"
